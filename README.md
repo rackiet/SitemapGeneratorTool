@@ -1,51 +1,24 @@
-# 🌐 Sitemap Generator Tool 🛠️
+# Sitemap Generator with GUI 🌍🔗
 
-## 🌟 Overview 🌟
+Aplikasi sederhana untuk menghasilkan sitemap dari list link dalam file `.txt` dengan antarmuka grafis yang ramah pengguna berdasarkan Tkinter! 🚀💻
 
-📝 Sitemap Generator adalah sebuah alat Python 🐍 yang digunakan untuk membuat sitemap XML 🗂️ untuk website Anda 🌍. Alat ini membaca daftar URL dari sebuah file teks 📄 dan menghasilkan sitemap XML sesuai dengan spesifikasi [Sitemaps protocol](https://www.sitemaps.org/protocol.html) 📑.
+## Fitur Utama ✨
 
-## ✨ Fitur ✨
+- **Antarmuka Grafis**: Mudah digunakan dengan antarmuka pengguna grafis berdasarkan Tkinter. 🖥️🖱️
+- **Kustomisasi**: Tentukan tanggal mulai, batas link per sitemap, dan nama sitemap sesuai keinginan Anda. 📆📝
+- **Output**: Hasilkan sitemap yang valid untuk Google dalam format `.xml`. 📄🔍
 
-- 📃 Membaca daftar URL dari file `listwebsite.txt`.
-- 🎚️ Mengatur `priority` dan `changefreq` untuk setiap URL.
-- 📆 Menggunakan tanggal awal dan akhir untuk elemen `lastmod`.
-- 📦 Membuat chunk sitemap setiap 500 URL.
-- 📊 Menampilkan progress bar saat proses berlangsung.
+## Cara Menggunakan 📘
 
-## 🚀 Instalasi 🚀
+1. **Setup**: Pastikan Anda telah menginstall Python dan library Tkinter. 🐍📦
+2. **Menjalankan**: Buka terminal atau command prompt Anda, navigasikan ke direktori aplikasi, dan jalankan dengan perintah `python nama_file.py`. 🖥️➡️📂
+3. **Input**: Klik tombol "Generate Sitemap" dan ikuti instruksi yang diberikan! 🖱️💡
+4. **Hasil**: Anda akan mendapatkan satu atau lebih sitemap dalam format `.xml` sesuai dengan input Anda! 🎉📂
 
-1️⃣ Clone repositori ini atau download sebagai ZIP 🗄️.
-2️⃣ Buka terminal 🖥️ dan navigasi ke folder di mana kode sumber berada.
-3️⃣ Jalankan `pip install tqdm` 📦 untuk menginstal library tqdm yang digunakan untuk progress bar 📊.
+## Kontribusi 🤝
 
-## 🤔 Cara Menggunakan 🤔
+Semua bentuk kontribusi diterima dengan senang hati! Jika Anda menemukan bug 🐞 atau memiliki ide fitur baru 💡, jangan ragu untuk membuat issue atau pull request.
 
-### 🔧 Setup 🔧
+## Lisensi 📜
 
-1️⃣ Buat file `listwebsite.txt` 📄 dan masukkan semua URL yang ingin Anda tambahkan ke sitemap. Satu URL per baris 🖋️.
-
-### 🎮 Menjalankan Program 🎮
-
-1️⃣ Buka terminal 🖥️ dan navigasi ke folder di mana kode sumber berada.
-2️⃣ Jalankan `python nama_file.py` ⏩ (ganti `nama_file.py` dengan nama file Python Anda 📄).
-
-### 💡 Input 💡
-
-Program akan meminta beberapa input 🖊️:
-
-1️⃣ Tanggal awal dalam format DD-MM-YYYY 🗓️.
-2️⃣ Tanggal akhir dalam format DD-MM-YYYY 📅.
-3️⃣ Priority (e.g., 1.0) 🌟.
-4️⃣ Changefreq (e.g., always, hourly, daily) ⏲️.
-
-### 📤 Output 📤
-
-- 📜 Sitemap akan disimpan dalam file dengan format `sitemap1.xml`, `sitemap2.xml`, dan seterusnya 🗂️.
-
-## 🤝 Kontribusi 🤝
-
-🐛 Jika Anda menemukan bug atau ingin menambahkan fitur, silakan buat sebuah issue atau pull request 👥.
-
-## 📜 Lisensi 📜
-
-MIT 🔒
+Dilisensikan di bawah MIT License. Lihat [LICENSE](LICENSE) untuk detail lebih lanjut.
